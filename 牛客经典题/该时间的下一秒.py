@@ -25,11 +25,11 @@ class NextSecond():
 
           dt_list=re.findall("\d+", dt)
 
-          return"%sÄê%sÔÂ%sÈÕ%sÊ±%s·Ö%sÃë"% (dt_list[0], dt_list[1], dt_list[2], dt_list[3], dt_list[4], dt_list[5])
+          return"%så¹´%sæœˆ%sæ—¥%sæ—¶%såˆ†%sç§’"% (dt_list[0], dt_list[1], dt_list[2], dt_list[3], dt_list[4], dt_list[5])
 
 if __name__=='__main__':
 
     a=NextSecond()
 
-    print(a.next_seconf("2017Äê11ÔÂ09ÈÕ23Ê±53·Ö59Ãë"))
+    print(a.next_seconf("2017å¹´11æœˆ09æ—¥23æ—¶53åˆ†59ç§’"))
     print(time.localtime())
